@@ -1,16 +1,14 @@
-## Hi there 👋
+Hi, I'm Mazhar 👋
+Aspiring Azure Data Engineer
 
-<!--
-**Mazhar-Kakar/mazhar-kakar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+- Learning SQL, Python, Data Engineering
+- Building projects and sharing in public
+- Interested in ETL, Data Pipelines, Cloud Data Platforms
 
-Here are some ideas to get you started:
+Tech Stack:
+SQL | Python | Git | Azure (learning)
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+Current Focus:
+- SQL fundamentals
+- Python for data engineering
+- Building ETL projects
