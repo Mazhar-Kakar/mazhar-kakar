@@ -1,6 +1,6 @@
 Hello Tech Folks,
 
-I am a Computer Engineering student and an Aspiring Azure Data Engineer with a strong interest in building scalable and reliable data systems.
+I am a Computer Engineering student and an Aspiring Data Engineer with a strong interest in building scalable and reliable data systems.
 
 Currently, I am learning and practicing SQL and Python, and building end-to-end data engineering projects to understand how real-world data pipelines, ETL processes, and cloud data platforms work.
 
