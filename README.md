@@ -1,9 +1,28 @@
-Hello Tech Folks,
+# Hello Tech Folks 👋
 
-I am a Computer Engineering student and an Aspiring Data Engineer with a strong interest in building scalable and reliable data systems.
+**Computer Engineering** student at SSBT COET specializing in **Data Engineering**. I focus on building data systems that transform raw datasets into useful business insights.
 
-Currently, I am learning and practicing SQL and Python, and building end-to-end data engineering projects to understand how real-world data pipelines, ETL processes, and cloud data platforms work.
+### **Core Projects:**
 
-I enjoy solving problems with data and continuously improving my skills by learning in public and sharing my journey on GitHub.
+**Local NL → SQL Analytics:**
+Developed an interface using Ollama (Qwen) to translate natural language into SQL queries. Designed to run locally without third-party APIs.
 
-I am actively looking for internship opportunities, collaboration, and mentorship in data engineering. If you are working in data or building data products, I would love to connect and learn from you.
+**Retail Data Pipeline:**
+Built an end-to-end ETL workflow using Python and SQL to ingest and transform 50k+ records from retail APIs into a MySQL warehouse.
+
+---
+
+### **TECHNICAL SKILLS**
+
+* **Languages:** Python, SQL, Shell
+* **Databases:** MySQL, Database Design, Basic Query Optimization
+* **Data Engineering:** ETL Pipelines, Data Cleaning, Basic Data Modeling, Batch Processing
+* **Tools:** Git, GitHub, Streamlit, Jupyter Notebook, VS Code
+* **OS:** Windows, Linux
+* **Visualization:** Power BI
+
+---
+
+### **Let's Connect**
+
+Actively seeking **Data Engineering Internships**. I enjoy sharing my learning journey and project builds on GitHub. Let’s connect to discuss data architecture, mentoring, or collaboration.
