@@ -1,23 +1,29 @@
 # Hello Tech Folks 👋
 
-**Computer Engineering** student at SSBT COET specializing in **Data Engineering**. I focus on building data systems that transform raw datasets into useful business insights.
-
-### **Core Projects:**
-
-**Local NL → SQL Analytics:**
-Developed an interface using Ollama (Qwen) to translate natural language into SQL queries. Designed to run locally without third-party APIs.
-
-**Retail Data Pipeline:**
-Built an end-to-end ETL workflow using Python and SQL to ingest and transform 50k+ records from retail APIs into a MySQL warehouse.
+**Computer Engineering** student at SSBT COET specializing in **Data Engineering**. I build pipelines that turn raw data into usable insights.
 
 ---
 
-### **TECHNICAL SKILLS**
+### **Core Projects**
+
+**RetailFlow — Modern ELT Data Platform** *(In Progress)*
+Building a production-style ELT pipeline to extract, store, and transform e-commerce data into analytics-ready tables.
+- **Architecture:** Python (API extraction) → AWS S3 (raw data lake) → Snowflake (warehouse) → dbt (staging → mart models, Silver/Gold layers)
+- Designed to reflect real-world data platforms used by modern e-commerce and D2C companies — handling raw ingestion, schema validation, and layered transformations.
+- Following along as I build — feedback and suggestions welcome.
+
+**Local NL → SQL Analytics**
+Built a local interface using Ollama (Qwen) that converts natural language questions into SQL queries, with no third-party API dependency.
+
+---
+
+### **Technical Skills**
 
 * **Languages:** Python, SQL, Shell
-* **Databases:** MySQL, Database Design, Basic Query Optimization
-* **Data Engineering:** ETL Pipelines, Data Cleaning, Basic Data Modeling, Batch Processing
-* **Tools:** Git, GitHub, Streamlit, Jupyter Notebook, VS Code
+* **Databases:** MySQL
+* **Cloud & Warehousing:** AWS S3, Snowflake
+* **Data Engineering:** ETL, ELT Pipelines, dbt, Data Cleaning, Data Modeling, Batch Processing, API Data Extraction
+* **Tools:** Git, GitHub, Streamlit, Jupyter Notebook, VS Code, boto3
 * **OS:** Windows, Linux
 * **Visualization:** Power BI
 
@@ -25,4 +31,4 @@ Built an end-to-end ETL workflow using Python and SQL to ingest and transform 50
 
 ### **Let's Connect**
 
-Actively seeking **Data Engineering Internships**. I enjoy sharing my learning journey and project builds on GitHub. Let’s connect to discuss data architecture, mentoring, or collaboration.
+Actively looking for a **Data Engineering Internship** — available for full-time, long-duration roles. I share my projects and learning here on GitHub — open to connecting on data architecture, mentoring, or collaboration.
