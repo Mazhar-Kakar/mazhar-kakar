@@ -1,34 +1,71 @@
 # Hello Tech Folks 👋
 
-**Computer Engineering** student at SSBT COET specializing in **Data Engineering**. I build pipelines that turn raw data into usable insights.
+Aspiring Data Engineer with hands-on experience in Python, SQL, AWS S3, Snowflake, and dbt. Built end-to-end data engineering projects, ETL/ELT pipelines, and SQL-based data transformations. Comfortable writing SQL queries, cleaning datasets, and explaining design trade-offs clearly.
 
 ---
 
-### **Core Projects**
+## 🚀 Featured Project
 
-**RetailFlow — Modern ELT Data Platform** *(In Progress)*
-Building a production-style ELT pipeline to extract, store, and transform e-commerce data into analytics-ready tables.
-- **Architecture:** Python (API extraction) → AWS S3 (raw data lake) → Snowflake (warehouse) → dbt (staging → mart models, Silver/Gold layers)
-- Designed to reflect real-world data platforms used by modern e-commerce and D2C companies — handling raw ingestion, schema validation, and layered transformations.
-- Following along as I build — feedback and suggestions welcome.
+### RetailFlow — End-to-End ELT Data Pipeline
 
-**Local NL → SQL Analytics**
-Built a local interface using Ollama (Qwen) that converts natural language questions into SQL queries, with no third-party API dependency.
+Built a production-inspired ELT pipeline that ingests retail data, stores it in a cloud data warehouse, and transforms it into business-ready analytics models.
+
+### Architecture
+
+```
+PostgreSQL
+      ↓
+Python ETL Pipeline
+      ↓
+Amazon S3 (Parquet)
+      ↓
+Snowflake (Bronze)
+      ↓
+dbt (Staging → Intermediate → Fact & Dimensions → Business Marts)
+      ↓
+Power BI Dashboard
+```
+
+### Project Highlights
+
+- Extracted retail data from PostgreSQL using Python.
+- Converted data to Parquet and stored it in Amazon S3.
+- Loaded raw data into Snowflake using `COPY INTO`.
+- Built a layered dbt project with:
+  - Staging Models
+  - Intermediate Models
+  - Fact & Dimension Tables
+  - Business Data Marts
+- Implemented data quality validations and reusable dbt macros.
+- Designed a Star Schema for analytics.
+- Prepared business-ready datasets for Power BI reporting.
 
 ---
 
-### **Technical Skills**
+## 🛠️ Tech Stack
 
-* **Languages:** Python, SQL, Shell
-* **Databases:** MySQL
-* **Cloud & Warehousing:** AWS S3, Snowflake
-* **Data Engineering:** ETL, ELT Pipelines, dbt, Data Cleaning, Data Modeling, Batch Processing, API Data Extraction
-* **Tools:** Git, GitHub, Streamlit, Jupyter Notebook, VS Code, boto3
-* **OS:** Windows, Linux
-* **Visualization:** Power BI
+- Python
+- SQL
+- PostgreSQL
+- Amazon S3
+- Snowflake
+- dbt
+- Power BI
+- Git & GitHub
 
 ---
 
-### **Let's Connect**
+## 📖 Currently Learning
 
-Actively looking for a **Data Engineering Internship** — available for full-time, long-duration roles. I share my projects and learning here on GitHub — open to connecting on data architecture, mentoring, or collaboration.
+- Apache Airflow
+- Advanced dbt
+- Data Warehouse Design
+- Production Data Engineering
+
+---
+
+## 🤝 Let's Connect
+
+I'm actively looking for a **Data Engineering Internship** where I can contribute, learn from experienced engineers, and continue building real-world data platforms.
+
+Feel free to connect if you'd like to discuss **Data Engineering**, **dbt**, **Snowflake**, or modern ELT architectures.
